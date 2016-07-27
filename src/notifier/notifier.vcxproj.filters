@@ -1,0 +1,64 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="src">
+      <UniqueIdentifier>{3d808513-9739-4b89-8636-6580d04bc6e6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="res">
+      <UniqueIdentifier>{36e03519-ee4f-4f85-8930-77d8b29ca57f}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="entry.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="firewall.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="wstr.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="monitor.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="notifier.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="app.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="notifier.ico">
+      <Filter>res</Filter>
+    </Image>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="resource.h">
+      <Filter>res</Filter>
+    </ClInclude>
+    <ClInclude Include="firewall.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="core.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="wstr.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="monitor.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="notifier.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="app.h">
+      <Filter>src</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="notifier.rc">
+      <Filter>res</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+</Project>
